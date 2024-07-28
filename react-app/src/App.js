@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import JsxConcept from './concepts/Jsx';
+import {Link} from 'react-router-dom';
 
 function App() {
   return (
@@ -9,14 +11,12 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with Muntazer
-        </a>
+        <div>
+      <h1>Home Page</h1>
+      <Link to="/another-page" className="App-link">
+        Learn React with Muntazer
+      </Link>
+    </div>
       </header>
     </div>
   );
