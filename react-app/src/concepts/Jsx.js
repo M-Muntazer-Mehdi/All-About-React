@@ -1,6 +1,12 @@
-import React from "react";
-import ReactDom from "react"
 
-ReactDom.render(<>
-    <h1>my name is muntazer</h1>
-</>);
+import React from "react";
+
+function Jsx() {
+  return (
+    <>
+      <h1>My name is Muntazer</h1>
+    </>
+  );
+}
+
+export default Jsx;
