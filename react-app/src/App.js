@@ -1,16 +1,16 @@
-// App.js
+// src/App.js
 import './App.css';
-import JsxConcept from './Component/Jsx';
+import JsxConcept from './Components/Jsx';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home1 from './Component/Home';
+import Home from './Components/Home';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home1 />} />
+          <Route path="/" element={<Home />} />
           <Route path="/my-jsx" element={<JsxConcept />} />
         </Routes>
       </div>
