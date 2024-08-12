@@ -10,7 +10,7 @@ function Home() {
       <header className="Home-header">
         <img src={logo} className="Home-logo" alt="React logo" />
         <h5 className='Home-h5'>./src/home.js and save to Reload</h5>
-        <Link to="/my-jsx" className="Home-link">
+        <Link to="/my-header" className="Home-link">
           Learn React with Muntazer
         </Link>
       </header>
