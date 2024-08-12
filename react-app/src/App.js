@@ -5,6 +5,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home';
 import Headerfile from './Components/Header';
+import Component from './Components/Component/Component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/my-jsx" element={<JsxConcept />} />
           <Route path='/my-header' element={<Headerfile />} />
+          <Route path='/my-component' element= {<Component />} />
         </Routes>
       </div>
     </Router>
