@@ -10,8 +10,14 @@ function Headerfile() {
       <br />
       <br />
       <Link to="/my-component" className="Home-link" style={jsxstyle}>
-      Component Comcept
+        Component Comcept
       </Link>
+      <br />
+      <br />
+      <Link to="/my-rendering" className="Home-link" style={jsxstyle}>
+        Conditional Rendering & lists
+      </Link>
+      
     </div>
     );
 }
