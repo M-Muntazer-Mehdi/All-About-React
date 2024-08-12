@@ -7,6 +7,11 @@ function Headerfile() {
       <Link to="/my-jsx" className="Home-link" style={jsxstyle}>
         Jsx Concepts
       </Link>
+      <br />
+      <br />
+      <Link to="/my-component" className="Home-link" style={jsxstyle}>
+      Component Comcept
+      </Link>
     </div>
     );
 }
