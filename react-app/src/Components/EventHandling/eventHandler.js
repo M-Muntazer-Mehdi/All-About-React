@@ -3,6 +3,7 @@ import PassingFunction from './passingFunctionAsEventHandler';
 import Inline from "./inlineEventHandler";
 import Object from "./eventObject";
 import DefaultBehaviour from "./preventDefaultBehaviour";
+import Binding from "./bindingEventHandler";
 
 function EventHandler (){
     return(
@@ -11,6 +12,7 @@ function EventHandler (){
             <Inline />
             <Object />
             <DefaultBehaviour />
+            <Binding />
         </div>
     );
 }
