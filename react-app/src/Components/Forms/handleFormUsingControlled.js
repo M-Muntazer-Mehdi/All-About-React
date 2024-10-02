@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function ContactForm() {
+function HandleFormControlled() {
   // State to hold form data
   const [formData, setFormData] = useState({
     name: '',
@@ -70,4 +70,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default HandleFormControlled;

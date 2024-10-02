@@ -1,14 +1,16 @@
 import React from "react";
 import ControlledForm from "./controlledForm";
 import UnControlledForm from "./unControlledForm";
-import ContactForm from "./handleFormUsingControlled";
+import HandleFormControlled from "./handleFormUsingControlled";
+import HandleFormUncontrolled from "./handleFormUsingUncontrolled";
 
 function FormMain () {
     return (
         <div>
             <ControlledForm />
             <UnControlledForm />
-            <ContactForm />
+            <HandleFormControlled />
+            <HandleFormUncontrolled />
         </div>
     );
 }
