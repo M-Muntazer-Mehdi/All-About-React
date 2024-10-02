@@ -22,6 +22,11 @@ function Headerfile() {
       <Link to="/my-lifecycle" className="Home-link" style={jsxstyle}> 
         Componenet Lifecycle 
       </Link>
+      <br />
+      <br />
+      <Link to="/my-state" className="Home-link" style={jsxstyle}> 
+        State Management
+      </Link>
       
     </div>
     );
