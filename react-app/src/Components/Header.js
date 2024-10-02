@@ -32,6 +32,11 @@ function Headerfile() {
       <Link to="/my-event" className="Home-link" style={jsxstyle}> 
         Event Handler
       </Link>
+      <br />
+      <br />
+      <Link to="/my-forms" className="Home-link" style={jsxstyle}> 
+        Forms
+      </Link>
       
     </div>
     );

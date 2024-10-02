@@ -10,6 +10,7 @@ import RenderingMain from './Components/Rendering/renderingMainFile';
 import Lifecycle from './Components/componentLifecycle/Lifecycle'
 import StateManagement from './Components/stateManagement/stateMainFile' 
 import EventHandler from './Components/EventHandling/eventHandler';
+import FormMain from './Components/Forms/formMain';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/my-lifecycle' element = {<Lifecycle />} />
           <Route path='/my-state' element = {<StateManagement />} />
           <Route path='/my-event' element = {<EventHandler />} />
+          <Route path='/my-forms' element = {<FormMain />} />
         </Routes>
       </div>
     </Router>
