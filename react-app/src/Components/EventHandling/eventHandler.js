@@ -5,6 +5,7 @@ import Object from "./eventObject";
 import DefaultBehaviour from "./preventDefaultBehaviour";
 import Binding from "./bindingEventHandler";
 import Multiple from "./multipleEvent";
+import Arguments from "./passingMultipleArgument";
 
 function EventHandler (){
     return(
@@ -15,6 +16,7 @@ function EventHandler (){
             <DefaultBehaviour />
             <Binding />
             <Multiple />
+            <Arguments />
         </div>
     );
 }
