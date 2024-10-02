@@ -9,6 +9,7 @@ import Component from './Components/Component/Component';
 import RenderingMain from './Components/Rendering/renderingMainFile';
 import Lifecycle from './Components/componentLifecycle/Lifecycle'
 import StateManagement from './Components/stateManagement/stateMainFile' 
+import EventHandler from './Components/EventHandling/eventHandler';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/my-rendering' element = {<RenderingMain />} />
           <Route path='/my-lifecycle' element = {<Lifecycle />} />
           <Route path='/my-state' element = {<StateManagement />} />
+          <Route path='/my-event' element = {<EventHandler />} />
         </Routes>
       </div>
     </Router>
