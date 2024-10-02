@@ -7,6 +7,7 @@ import Home from './Components/Home';
 import Headerfile from './Components/Header';
 import Component from './Components/Component/Component';
 import RenderingMain from './Components/Rendering/renderingMainFile';
+import Lifecycle from './Components/componentLifecycle/Lifecycle'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/my-header' element={<Headerfile />} />
           <Route path='/my-component' element= {<Component />} />
           <Route path='/my-rendering' element = {<RenderingMain />} />
+          <Route path='/my-lifecycle' element = {<Lifecycle />} />
         </Routes>
       </div>
     </Router>

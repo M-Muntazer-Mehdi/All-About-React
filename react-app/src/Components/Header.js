@@ -17,6 +17,11 @@ function Headerfile() {
       <Link to="/my-rendering" className="Home-link" style={jsxstyle}>
         Conditional Rendering & lists
       </Link>
+      <br />
+      <br />
+      <Link to="/my-lifecycle" className="Home-link" style={jsxstyle}> 
+        Componenet Lifecycle 
+      </Link>
       
     </div>
     );
