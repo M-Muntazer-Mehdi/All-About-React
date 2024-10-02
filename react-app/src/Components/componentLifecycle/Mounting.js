@@ -21,7 +21,7 @@ class Mounting extends Component {
         console.log("Render: Componenet Render");
         return(
             <div>
-                <h1 style={{ fontSize: "18px" }}> Click to increase the count: {this.state.count} <nr></nr>
+                <h1 style={{ fontSize: "18px" }}> Click to increase the Mounting example count: {this.state.count} <nr></nr>
                     <button style={{ fontSize: "18px" }} onClick={()=> this.setState({count : this.state.count + 1})}> 
                         Click me
                     </button>
