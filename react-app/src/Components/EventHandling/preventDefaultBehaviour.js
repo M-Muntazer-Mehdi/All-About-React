@@ -9,8 +9,8 @@ function DefaultBehaviour() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" placeholder="Enter your name" />
-      <button type="submit">Submit</button>
+      <input style={{fontSize:"18px"}} type="text" placeholder="Enter your name" />
+      <button style={{fontSize:"18px"}} type="submit">Submit</button>
     </form>
   );
 }
