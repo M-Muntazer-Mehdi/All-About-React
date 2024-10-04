@@ -15,7 +15,7 @@ import ContextApi from './Components/contextApi/contextMain';
 
 function App() {
   return (
-    //Wrap App.js with the AuthProvider
+    //Nested Routes Example
       <Router>
         <div className="App">
           <Routes>
