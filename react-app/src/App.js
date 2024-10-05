@@ -1,6 +1,6 @@
 // src/App.js
 import './App.css';
-import JsxConcept from './Components/Jsx';
+import JsxConcept from './Components/Jsx/Jsx';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home';
