@@ -17,6 +17,7 @@ const LoginHoc = () => {
   return (
     <div style={{ padding: '20px' }}>
       <h2>Login</h2>
+      <h6> Enter name 'Muntazer'</h6>
       <input
         type="text"
         value={username}

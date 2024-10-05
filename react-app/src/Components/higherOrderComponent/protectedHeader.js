@@ -1,7 +1,7 @@
 import React from "react";
-import Headerfile from "../Header";
+import WrapFile from "./testFile";
 import WithAuth from "./withAuth";
 
-const ProtectedDashboard = WithAuth(Headerfile);
+const ProtectedComponent = WithAuth(WrapFile);
 
-export default ProtectedDashboard;
+export default ProtectedComponent;
