@@ -1,4 +1,3 @@
-import React from "react";
 import WrapFile from "./testFile";
 import WithAuth from "./withAuth";
 
