@@ -14,6 +14,8 @@ import FormMain from './Components/Forms/formMain';
 import ContextApi from './Components/contextApi/contextMain';
 import LoginHoc from './Components/higherOrderComponent/loginHoc';
 import ProtectedComponent from './Components/higherOrderComponent/protectedHeader';
+import BuggyComponent from './Components/errorBoundaries/buggyComponent';
+import ErrorBoundaries from './Components/errorBoundaries/errorBoundariesFile';
 
 function App() {
   return (
@@ -33,6 +35,11 @@ function App() {
             <Route path='/my-context' element = {<ContextApi />} />
             <Route path='/my-loginFile' element = {<LoginHoc />} />
             <Route path='/my-ProtectedComponent' element={<ProtectedComponent />} />
+            <Route path='/my-BuggyComponent' element={
+              <ErrorBoundaries>
+              <BuggyComponent throwError={true} />
+              </ErrorBoundaries>
+            } />
           </Routes>
         </div>
       </Router>

@@ -47,6 +47,11 @@ function Headerfile() {
       <Link to="/my-loginFile" className="Home-link" style={jsxstyle}> 
         Higher Order Component
       </Link>
+      <br />
+      <br />
+        <Link to="/my-BuggyComponent" className="Home-link" style={jsxstyle}> 
+          Error Boundaries
+        </Link>
     </div>
     );
 }
