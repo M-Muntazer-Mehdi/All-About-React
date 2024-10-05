@@ -33,18 +33,6 @@
   margin-top: -1%;
 }
 
-.Home-h6{
-  margin-top: 1%;
-  font-size: 14px;
-}
-
-.Button1{
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
-  margin-top: -1%;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

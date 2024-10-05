@@ -42,6 +42,11 @@ function Headerfile() {
       <Link to="/my-context" className="Home-link" style={jsxstyle}> 
         Context Api
       </Link>
+      <br />
+      <br />
+      <Link to="/my-loginFile" className="Home-link" style={jsxstyle}> 
+        Higher Order Component
+      </Link>
     </div>
     );
 }
