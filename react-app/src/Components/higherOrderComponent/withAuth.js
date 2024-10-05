@@ -1,5 +1,6 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
+import Home from "../Home";
 
 const WithAuth = (WrappedComponent) => {
     return class extends React.Component {
@@ -7,7 +8,7 @@ const WithAuth = (WrappedComponent) => {
             const isAuthenticated = localStorage.getItem('username') === 'Muntazer';
 
             if(!isAuthenticated) {
-                return <Redirect to = "" />
+                return <Navigate to = {Home} />
             }
 
             return <WrappedComponent {...this.Props} />
