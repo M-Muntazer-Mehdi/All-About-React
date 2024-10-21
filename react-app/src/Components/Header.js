@@ -52,6 +52,11 @@ function Headerfile() {
         <Link to="/my-BuggyComponent" className="Home-link" style={jsxstyle}> 
           Error Boundaries
         </Link>
+      <br />
+      <br />
+        <Link to="/my-useMemo" className="Home-link" style={jsxstyle}> 
+          useMemo - Custom Hook
+        </Link>
     </div>
     );
 }

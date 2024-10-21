@@ -16,6 +16,7 @@ import LoginHoc from './Components/higherOrderComponent/loginHoc';
 import ProtectedComponent from './Components/higherOrderComponent/protectedHeader';
 import BuggyComponent from './Components/errorBoundaries/buggyComponent';
 import ErrorBoundaries from './Components/errorBoundaries/errorBoundariesFile';
+import ProductList from './Components/Hooks/useMemo';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
               <BuggyComponent throwError={true} />
               </ErrorBoundaries>
             } />
+            <Route path='my-useMemo' element={<ProductList />} />
           </Routes>
         </div>
       </Router>
