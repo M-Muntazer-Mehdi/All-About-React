@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useCallback } from 'react';
+import React, { useMemo, useState, useCallback, useTransition } from 'react';
 import sampleProducts from './sample';
 import Filters from './filters';
 import Available from './availableProduct';
@@ -12,6 +12,8 @@ const ProductList = () => {
     brand: '',
   });
 
+  const [isPending, startTransition] = useTransition(); // Use concurrent mode
+  
   // Memoize the filtered products based on the current filters
   const filteredProducts = useMemo(() => {
     return sampleProducts.filter(product => {
@@ -43,6 +45,7 @@ const ProductList = () => {
     
       {/* Render filtered products */}
       <h2>Available Products</h2>
+      {isPending && <p>Updating products...</p>}
       <Available 
         filteredProducts={filteredProducts}
       />
