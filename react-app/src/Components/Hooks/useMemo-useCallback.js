@@ -1,7 +1,9 @@
-import React, { useMemo, useState, useCallback, useTransition } from 'react';
+import React, { useMemo, useState, useCallback, useTransition, Suspense, lazy } from 'react';
 import sampleProducts from './sample';
 import Filters from './filters';
-import Available from './availableProduct';
+
+const Available = lazy(() => import('./availableProduct'));
+
 
 //Create function to call useMemo
 const ProductList = () => {
@@ -46,9 +48,11 @@ const ProductList = () => {
       {/* Render filtered products */}
       <h2>Available Products</h2>
       {isPending && <p>Updating products...</p>}
+      <Suspense fallback={<div>Loading...</div>}>
       <Available 
         filteredProducts={filteredProducts}
       />
+    </Suspense>
     </div>
   );
 };
