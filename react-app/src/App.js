@@ -16,7 +16,7 @@ import LoginHoc from './Components/higherOrderComponent/loginHoc';
 import ProtectedComponent from './Components/higherOrderComponent/protectedHeader';
 import BuggyComponent from './Components/errorBoundaries/buggyComponent';
 import ErrorBoundaries from './Components/errorBoundaries/errorBoundariesFile';
-import ProductList from './Components/Hooks/useMemo';
+import ProductList from './Components/Hooks/useMemo-useCallback';
 
 function App() {
   return (

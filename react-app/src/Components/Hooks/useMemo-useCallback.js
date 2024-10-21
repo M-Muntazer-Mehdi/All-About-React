@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useCallback } from 'react';
 import sampleProducts from './sample';
 import Filters from './filters';
 import Available from './availableProduct';
@@ -24,13 +24,14 @@ const ProductList = () => {
   }, [filters]); // Dependency array: re-run when filters change
 
   // Handler to update filters
-  const handleFilterChange = (e) => {
+  // Callback is used to filter from existing instance
+  const handleFilterChange = useCallback((e) => {
     const { name, value } = e.target;
     setFilters(prevFilters => ({
       ...prevFilters,
       [name]: value,
     }));
-  };
+  }, []);
 
   return (
     <div>
