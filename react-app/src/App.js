@@ -17,6 +17,7 @@ import ProtectedComponent from './Components/higherOrderComponent/protectedHeade
 import BuggyComponent from './Components/errorBoundaries/buggyComponent';
 import ErrorBoundaries from './Components/errorBoundaries/errorBoundariesFile';
 import ProductList from './Components/Hooks/useMemo-useCallback';
+import Redux from './Components/Redux/mainfile';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
               </ErrorBoundaries>
             } />
             <Route path='my-useMemo' element={<ProductList />} />
+            <Route path='/my-plainRedux' element={<Redux />} />
           </Routes>
         </div>
       </Router>

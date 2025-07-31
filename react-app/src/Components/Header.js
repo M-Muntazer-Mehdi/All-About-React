@@ -57,6 +57,11 @@ function Headerfile() {
         <Link to="/my-useMemo" className="Home-link" style={jsxstyle}> 
           useMemo - Custom Hook
         </Link>
+      <br />
+      <br />
+        <Link to="/my-plainRedux" className="Home-link" style={jsxstyle}> 
+          Redux
+        </Link>
     </div>
     );
 }
