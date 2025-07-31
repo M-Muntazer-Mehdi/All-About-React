@@ -43,7 +43,7 @@ function App() {
               </ErrorBoundaries>
             } />
             <Route path='my-useMemo' element={<ProductList />} />
-            <Route path='/my-plainRedux' element={<Redux />} />
+            <Route path='/my-Redux' element={<Redux />} />
           </Routes>
         </div>
       </Router>

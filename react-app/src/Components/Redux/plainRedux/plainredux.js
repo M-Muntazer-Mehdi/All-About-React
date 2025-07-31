@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 function plainRedux({ count, increment, decrement }) {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1> Plain Redux in React </h1>
       <h2>{count}</h2>
       <button onClick={increment}>increment</button>
       <button onClick={decrement} style={{ marginLeft: '10px' }}>decrement</button>

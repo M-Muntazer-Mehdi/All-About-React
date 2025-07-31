@@ -59,7 +59,7 @@ function Headerfile() {
         </Link>
       <br />
       <br />
-        <Link to="/my-plainRedux" className="Home-link" style={jsxstyle}> 
+        <Link to="/my-Redux" className="Home-link" style={jsxstyle}> 
           Redux
         </Link>
     </div>
