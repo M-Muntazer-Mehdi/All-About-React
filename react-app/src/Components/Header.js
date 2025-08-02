@@ -62,6 +62,11 @@ function Headerfile() {
         <Link to="/my-Redux" className="Home-link" style={jsxstyle}> 
           Redux
         </Link>
+      <br />
+      <br />
+        <Link to="/my-MobX" className="Home-link" style={jsxstyle}> 
+          MobX
+        </Link>
     </div>
     );
 }
