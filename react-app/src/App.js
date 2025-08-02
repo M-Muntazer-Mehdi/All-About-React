@@ -19,6 +19,7 @@ import ErrorBoundaries from './Components/errorBoundaries/errorBoundariesFile';
 import ProductList from './Components/Hooks/useMemo-useCallback';
 import Redux from './Components/Redux/mainfile';
 import MobXComponent from './Components/MobX/mobX';
+import ZustandComponent from './Components/Zustand/zustand';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
             <Route path='my-useMemo' element={<ProductList />} />
             <Route path='/my-Redux' element={<Redux />} />
             <Route path='/my-MobX' element={<MobXComponent />} />
+            <Route path='/my-Zustand' element={<ZustandComponent />} />
           </Routes>
         </div>
       </Router>

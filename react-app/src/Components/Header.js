@@ -67,6 +67,11 @@ function Headerfile() {
         <Link to="/my-MobX" className="Home-link" style={jsxstyle}> 
           MobX
         </Link>
+      <br />
+      <br />
+        <Link to="/my-Zustand" className="Home-link" style={jsxstyle}> 
+          Zustand
+        </Link>
     </div>
     );
 }
