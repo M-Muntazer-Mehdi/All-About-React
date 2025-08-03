@@ -20,6 +20,7 @@ import ProductList from './Components/Hooks/useMemo-useCallback';
 import Redux from './Components/Redux/mainfile';
 import MobXComponent from './Components/MobX/mobX';
 import ZustandComponent from './Components/Zustand/zustand';
+import ReactQuery from './Components/reactQuery/mainFile';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             <Route path='/my-Redux' element={<Redux />} />
             <Route path='/my-MobX' element={<MobXComponent />} />
             <Route path='/my-Zustand' element={<ZustandComponent />} />
+            <Route path='/my-ReactQuery' element={<ReactQuery />} />
           </Routes>
         </div>
       </Router>
