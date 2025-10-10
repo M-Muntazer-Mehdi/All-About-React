@@ -77,6 +77,13 @@ function Headerfile() {
         <Link to="/my-ReactQuery" className="Home-link" style={jsxstyle}> 
           React Query
         </Link>
+      <br />
+      <br />
+        <Link to="/my-Portals" className="Home-link" style={jsxstyle}>  
+          Portals
+        </Link>
+      <br />
+      <br />
     </div>
     );
 }

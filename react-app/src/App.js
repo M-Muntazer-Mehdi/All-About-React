@@ -21,6 +21,7 @@ import Redux from './Components/Redux/mainfile';
 import MobXComponent from './Components/MobX/mobX';
 import ZustandComponent from './Components/Zustand/zustand';
 import ReactQuery from './Components/reactQuery/mainFile';
+import Portals from './Components/Portals/portals';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
             <Route path='/my-MobX' element={<MobXComponent />} />
             <Route path='/my-Zustand' element={<ZustandComponent />} />
             <Route path='/my-ReactQuery' element={<ReactQuery />} />
+            <Route path='/my-Portals' element={<Portals />} />
           </Routes>
         </div>
       </Router>
