@@ -99,6 +99,11 @@ function Headerfile() {
         </Link>
       <br />
       <br />
+        <Link to="/my-Suspense" className="Home-link" style={jsxstyle}>  
+          Suspense
+        </Link>
+      <br />
+      <br />
     </div>
     );
 }
