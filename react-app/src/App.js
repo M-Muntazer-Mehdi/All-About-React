@@ -22,6 +22,7 @@ import MobXComponent from './Components/MobX/mobX';
 import ZustandComponent from './Components/Zustand/zustand';
 import ReactQuery from './Components/reactQuery/mainFile';
 import Portals from './Components/Portals/portals';
+import RefsForwardingRefs from './Components/Refs&ForwardingRefs/refs';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
             <Route path='/my-Zustand' element={<ZustandComponent />} />
             <Route path='/my-ReactQuery' element={<ReactQuery />} />
             <Route path='/my-Portals' element={<Portals />} />
+            <Route path='/my-RefsForwardingRefs' element={<RefsForwardingRefs />} />
           </Routes>
         </div>
       </Router>
