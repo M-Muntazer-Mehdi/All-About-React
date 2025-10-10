@@ -26,6 +26,7 @@ import RefsForwardingRefs from './Components/Refs&ForwardingRefs/refs';
 import Fragment from './Components/Fragment/fragment';
 import ProfilerApi from './Components/profilerApi/profiler';
 import SuspenseDemo from './Components/Suspense/suspense';
+import RenderProps from './Components/RenderProp/renderProp';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
             <Route path='/my-Fragment' element={<Fragment />} />
             <Route path='/my-ProfilerApi' element={<ProfilerApi />} />
             <Route path='/my-Suspense' element={<SuspenseDemo />} />
+            <Route path='/my-RenderProps' element={<RenderProps />} />
           </Routes>
         </div>
       </Router>

@@ -104,6 +104,11 @@ function Headerfile() {
         </Link>
       <br />
       <br />
+        <Link to="/my-RenderProps" className="Home-link" style={jsxstyle}>  
+          Render Props
+        </Link>
+      <br />
+      <br />
     </div>
     );
 }
