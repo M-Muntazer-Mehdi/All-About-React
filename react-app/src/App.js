@@ -23,6 +23,7 @@ import ZustandComponent from './Components/Zustand/zustand';
 import ReactQuery from './Components/reactQuery/mainFile';
 import Portals from './Components/Portals/portals';
 import RefsForwardingRefs from './Components/Refs&ForwardingRefs/refs';
+import Fragment from './Components/Fragment/fragment';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
             <Route path='/my-ReactQuery' element={<ReactQuery />} />
             <Route path='/my-Portals' element={<Portals />} />
             <Route path='/my-RefsForwardingRefs' element={<RefsForwardingRefs />} />
+            <Route path='/my-Fragment' element={<Fragment />} />
           </Routes>
         </div>
       </Router>
