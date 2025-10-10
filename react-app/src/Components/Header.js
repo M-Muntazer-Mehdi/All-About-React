@@ -92,6 +92,13 @@ function Headerfile() {
         <Link to="/my-Fragment" className="Home-link" style={jsxstyle}>  
           Fragment
         </Link>
+      <br />
+      <br />
+        <Link to="/my-ProfilerApi" className="Home-link" style={jsxstyle}>
+          Profiler Api
+        </Link>
+      <br />
+      <br />
     </div>
     );
 }
